@@ -1,13 +1,24 @@
 import './App.css'
-import './index.css'
+import Home from './home/Home'
 
 function App() {
- let userName = "Alice";
+  // javascript code will be written
+  let userName = "Alice";
 
   return (
     <>
-    <h1>Introduction of ReactJS</h1>
-    <p style={{color: "green", fontWeight: "bold"}}>User Name: {userName}</p>
+
+      {/* structure will be created here */}
+      <h1>Introduction to React Js</h1>
+      {/* whenever you want to access js variable and function, you have to use {} jsx syntax.
+      Inline Css: style
+      {} - jsx syntax
+      {} - you have to write inline css using js object  key:value
+      */}
+      <p style={{ color: "blue", fontWeight: "bold" }}>User Name: {userName}</p>
+      <Home />
+
+
     </>
   )
 }
