@@ -8,3 +8,8 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+ 
+
+//Don't change anything in main.jsx
+//HTML + JavaScript = JavaScript xml 
+//Component -> App.jsx
