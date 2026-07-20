@@ -7,12 +7,13 @@ function App() {
   function show() {
     alert("Button is clicked");
   }
+  const   mySkills = ["HTML", "CSS", "JACVASCRIPT", "REACT", "GIT", "GITHUB"]
 
   return (
     <>
     <h2>props pratice </h2>
    <Button clickMe = {show} />
-   <Skills array = {myArr} />
+   <Skills skills = {mySkills} />
     </>
   )
 }
