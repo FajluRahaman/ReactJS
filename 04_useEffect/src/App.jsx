@@ -1,12 +1,14 @@
 
 import './App.css'
-import Cart from './cart/Cart'
+// import Cart from './cart/Cart'
+import Product from './product/Product'
 
 function App() {
 
   return (
     <>
-      <Cart />
+      {/* <Cart /> */}
+      <Product />
     </>
   )
 }

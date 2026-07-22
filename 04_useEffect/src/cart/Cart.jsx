@@ -1,5 +1,5 @@
 import  { useEffect, useState } from 'react'
-import { axios } from 'axios';
+import axios  from 'axios';
 
 export default function Cart() {
     const [cartList, setcartList]  = useState();
@@ -26,3 +26,6 @@ export default function Cart() {
     </div>
   )
 }
+
+// fetch with axios package
+//description, category , image, API Endpoint: Copy'https://fakestoreapi.com/products'
